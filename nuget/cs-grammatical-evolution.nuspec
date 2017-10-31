@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>cs-tree-genetic-programming</id>
+    <id>cs-grammatical-evolution</id>
     <version>1.0.1</version>
     <authors>chen0040</authors>
     <owners>chen0040</owners>
-    <licenseUrl>https://github.com/chen0040/cs-tree-genetic-programming/blob/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/chen0040/cs-tree-genetic-programming</projectUrl>
-    <iconUrl>https://rawgit.com/chen0040/cs-tree-genetic-programming/master/icon.jpg</iconUrl>
+    <licenseUrl>https://github.com/chen0040/cs-grammatical-evolution/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/chen0040/cs-grammatical-evolution</projectUrl>
+    <iconUrl>https://rawgit.com/chen0040/cs-grammatical-evolution/master/icon.jpg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>cs-tree-genetic-programming</description>
-    <releaseNotes>Tree Genetic Programming</releaseNotes>
+    <description>cs-grammatical-evolution</description>
+    <releaseNotes>Grammatical Evolution</releaseNotes>
     <copyright>Copyright 2017</copyright>
-    <tags>Genetic-Programming, TreeGP, c-sharp</tags>
+    <tags>Genetic-Programming, Grammatical Evolution, c-sharp</tags>
     <dependencies>
       
     </dependencies>
