@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<crossover strategy="one_point">
+
+<strategy name="one_point" >
+</strategy>
+
+</crossover>

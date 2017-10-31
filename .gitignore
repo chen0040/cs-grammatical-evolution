@@ -1,8 +1,9 @@
-obj/
-bin/
+*/obj/*
+*/bin/*/*.exe
+*/bin/*/*.dll
+*/bin/*/*.pdb
+*/bin/*/*.exe.config
 
-*/obj/
-*/bin/
 
 *.user
 
