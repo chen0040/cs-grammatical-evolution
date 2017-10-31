@@ -3,5 +3,5 @@ Run the following command line:
 ```bash
 cd nuget/
 nuget spec
-nuget pack cs-tree-genetic-programming.nuspec
+nuget pack cs-grammatical-evolution.nuspec
 ```
