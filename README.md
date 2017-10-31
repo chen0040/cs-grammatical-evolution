@@ -179,4 +179,4 @@ class Program
 }
 ```
 
-The TGPConfig.xml and grammar.bnf can be found in the cs-grammatical-evolution-samples/bin/Debug folder as well as the xml configuration for the various operators in the TreeGP (in the folder cs-grammatical-evolution-samples/bin/Debug/spiral_classification)
+The GEConfig.xml and grammar.bnf can be found in the cs-grammatical-evolution-samples/bin/Debug folder as well as the xml configuration for the various operators in the TreeGP (in the folder cs-grammatical-evolution-samples/bin/Debug/spiral_classification)
