@@ -23,12 +23,12 @@
 </log_parameters>
 
 <lgp_scripts>
-<script name="CrossoverInstructionFactory" src="spiral_classification\CrossoverInstructionFactory.xml" />
-<script name="MutationInstructionFactory" src="spiral_classification\MutationInstructionFactory.xml" />
-<script name="PopInitInstructionFactory" src="spiral_classification\PopInitInstructionFactory.xml" />
-<script name="RegInitInstructionFactory" src="spiral_classification\RegInitInstructionFactory.xml" />
-<script name="ReproductionSelectionInstructionFactory" src="spiral_classification\ReproductionSelectionInstructionFactory.xml" />
-<script name="SurvivalInstructionFactory" src="spiral_classification\SurvivalInstructionFactory.xml" />
+<script name="CrossoverInstructionFactory" src="GEConfig\CrossoverInstructionFactory.xml" />
+<script name="MutationInstructionFactory" src="GEConfig\MutationInstructionFactory.xml" />
+<script name="PopInitInstructionFactory" src="GEConfig\PopInitInstructionFactory.xml" />
+<script name="RegInitInstructionFactory" src="GEConfig\RegInitInstructionFactory.xml" />
+<script name="ReproductionSelectionInstructionFactory" src="GEConfig\ReproductionSelectionInstructionFactory.xml" />
+<script name="SurvivalInstructionFactory" src="GEConfig\SurvivalInstructionFactory.xml" />
 </lgp_scripts>
 
 </configuration>

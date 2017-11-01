@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="cs-tree-genetic-programming, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\cs-tree-genetic-programming.1.0.1\lib\net452\Release\cs-tree-genetic-programming.dll</HintPath>
+      <HintPath>..\packages\cs-tree-genetic-programming.1.0.5\lib\net452\Release\cs-tree-genetic-programming.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />

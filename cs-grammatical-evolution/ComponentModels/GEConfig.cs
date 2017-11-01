@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using TreeGP.ComponentModels;
 using System.Xml;
+using System.IO;
 
 namespace GrammaticalEvolution.ComponentModels
 {
@@ -30,9 +31,55 @@ namespace GrammaticalEvolution.ComponentModels
             get { return mChromosomeValueUpperBound; }
             set { mChromosomeValueUpperBound = value; }
         }
-        public GEConfig(string filename)
-            : base(filename)
+
+        public override string GetScript(string p)
         {
+            if (mScripts.ContainsKey(p))
+            {
+                string scriptPath = mScripts[p];
+                if (!File.Exists(scriptPath))
+                {
+                    DirectoryInfo parentDir = Directory.GetParent(scriptPath);
+                    if (!parentDir.Exists)
+                    {
+                        parentDir.Create();
+                    }
+                    if (p == ScriptNames.CrossoverInstructionFactory)
+                    {
+                        File.WriteAllText(scriptPath, Properties.Resources.CrossoverInstructionFactory);
+                    }
+                    else if (p == ScriptNames.MutationInstructionFactory)
+                    {
+                        File.WriteAllText(scriptPath, Properties.Resources.MutationInstructionFactory);
+                    }
+                    else if (p == ScriptNames.PopInitInstructionFactory)
+                    {
+                        File.WriteAllText(scriptPath, Properties.Resources.PopInitInstructionFactory);
+                    }
+                    else if (p == ScriptNames.ReproductionSelectionInstructionFactory)
+                    {
+                        File.WriteAllText(scriptPath, Properties.Resources.ReproductionSelectionInstructionFactory);
+                    }
+                    else if (p == ScriptNames.SurvivalInstructionFactory)
+                    {
+                        File.WriteAllText(scriptPath, Properties.Resources.SurvivalInstructionFactory);
+                    }
+
+                }
+
+            }
+            return null;
+        }
+
+        public GEConfig(string filename)
+            : base()
+        {
+            if(!File.Exists(filename))
+            {
+                File.WriteAllText(filename, Properties.Resources.GEConfig);
+            }
+            base.Load(filename);
+
             XmlDocument doc = new XmlDocument();
             doc.Load(filename);
             XmlElement doc_root = doc.DocumentElement;

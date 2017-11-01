@@ -1,0 +1,12 @@
+<expr> ::= ( <expr> <biop> <expr> )
+	| ( <expr> <biop> <expr> ) 
+	| <pre-op> ( <expr> )
+	| <var>
+	| Iflt ( <expr> , <expr> , <expr> , <expr> )
+	
+<biop> ::= + | - | / | *
+
+<pre-op> ::= Sin | Cos 
+
+
+<var> ::= X | Y | C1 | 6
