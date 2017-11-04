@@ -179,4 +179,4 @@ class Program
 }
 ```
 
-The GEConfig.xml and its child configuration files will be automatically generated if they do not exist, otherwise the configuration will be loaded from the existing TGPConfig.xml and its child configuration files.
+The GEConfig.xml and its child configuration files will be automatically generated if they do not exist, otherwise the configuration will be loaded from the existing GEConfig.xml and its child configuration files.
