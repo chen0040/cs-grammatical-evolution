@@ -67,6 +67,8 @@ namespace GrammaticalEvolution.ComponentModels
 
                 }
 
+                return scriptPath;
+
             }
             return null;
         }
