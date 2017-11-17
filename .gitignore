@@ -1,8 +1,9 @@
 */obj/*
-*/bin/*/*.exe
-*/bin/*/*.dll
-*/bin/*/*.pdb
-*/bin/*/*.exe.config
+*/bin/*
+
+!*bin/*/*.bnf
+!*bin/*/*.txt
+
 
 
 *.user
