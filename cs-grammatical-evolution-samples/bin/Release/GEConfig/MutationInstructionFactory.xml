@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<pop_mutate strategy="uniform_random" >
-
-<strategy name="uniform_random">
-</strategy>
-
-</pop_mutate>
