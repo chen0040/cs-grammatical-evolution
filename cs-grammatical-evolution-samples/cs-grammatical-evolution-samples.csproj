@@ -33,8 +33,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="cs-grammatical-evolution, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\cs-grammatical-evolution.1.0.4\lib\net452\Release\cs-grammatical-evolution.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="cs-tree-genetic-programming, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\cs-tree-genetic-programming.1.0.5\lib\net452\Release\cs-tree-genetic-programming.dll</HintPath>
+      <HintPath>..\packages\cs-grammatical-evolution.1.0.4\lib\net452\Release\cs-tree-genetic-programming.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NCalc, Version=1.3.6.0, Culture=neutral, PublicKeyToken=973cde3f1cafed03, processorArchitecture=MSIL">
+      <HintPath>..\packages\cs-grammatical-evolution.1.0.4\lib\net452\Release\NCalc.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -54,12 +62,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\cs-grammatical-evolution\cs-grammatical-evolution.csproj">
-      <Project>{3f44746d-574c-4d3b-b9eb-e9bf29a29024}</Project>
-      <Name>cs-grammatical-evolution</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

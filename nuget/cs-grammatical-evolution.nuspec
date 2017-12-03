@@ -2,14 +2,14 @@
 <package >
   <metadata>
     <id>cs-grammatical-evolution</id>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <authors>chen0040</authors>
     <owners>chen0040</owners>
     <licenseUrl>https://github.com/chen0040/cs-grammatical-evolution/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/chen0040/cs-grammatical-evolution</projectUrl>
     <iconUrl>https://rawgit.com/chen0040/cs-grammatical-evolution/master/icon.jpg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>cs-grammatical-evolution</description>
+    <description>Grammatical Evolution in .NET 4.5.2</description>
     <releaseNotes>Grammatical Evolution</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>Genetic-Programming, Grammatical Evolution, c-sharp</tags>

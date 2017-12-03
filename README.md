@@ -5,7 +5,7 @@ Grammatical evolution implemented using C#
 # Install
 
 ```bash
-Install-Package cs-grammatical-evolution -Version 1.0.3
+Install-Package cs-grammatical-evolution -Version 1.0.4
 ```
 
 # Usage
